@@ -1,0 +1,33 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+h4{
+    color: tomato;
+}
+/* visited link */
+a:visited {
+    color:tomato;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  button{
+      background-color:white;
+      height: 10%;
+      width: 10%;
+  }
+  button{
+    background-color:white;
+    height: 10%;
+    width: 6%;
+}
+  

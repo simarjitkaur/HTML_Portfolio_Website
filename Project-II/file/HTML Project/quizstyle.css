@@ -1,0 +1,46 @@
+td{
+    vertical-align:top;
+}
+th, td {
+    padding: 8px;
+  }
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    background-color:#E6E6E6;
+    table-layout: auto;
+}
+
+th{
+    color: #08088A;
+    font: outline;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+button{
+    background-color:#2E2E2E;
+    color: aliceblue;
+    width: 70px;
+    height: 17px;
+    border-radius: 12px;
+    border: #2E2E2E;
+  }
+  button:active{
+    background-color:#B40431;
+    border: #B40431;
+    color: aliceblue;
+  }
+  #buy{
+    width: 80%;
+  }
+  #otherchoice{
+  width: 30%;
+  }
+  #like{
+    width: 80%;
+  }
+  #dislike{
+    width: 80%;
+  }

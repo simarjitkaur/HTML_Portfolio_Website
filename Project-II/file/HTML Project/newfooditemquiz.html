@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <link rel="stylesheet" href="quizstyle.css">
+      </head>
+<body>
+<!-- creating quiz for new item survey -->
+<form>
+     <table border="5px">
+          <tr>
+               <th colspan="2"><center>New Item Survey</center></th>
+          </tr>
+          <tr>     
+               <td>
+                    <b>1.What is your impression for our new food or bevrages?</b><br/>
+                    <input type="radio" id="negative" name="impression" value="Negative">
+                    <label for="negative">Negative</label><br/>
+                    <input type="radio" id="neutral" name="impression" value="Neutral">
+                    <label for="neutral">Neutral</label><br/>
+                    <input type="radio" id="positive" name="impression" value="Positive">
+                    <label for="positive">Positive</label><br/>
+               </td>
+               <td>
+                    <b>2.If we launch new food or bevrages today, how likely would you be to buy it?</b><br/>
+                    <input type="radio" id="likely" name="buy" value="Very likely">
+                    <label for="likely">Very Likely</label><br/>
+                    <input type="radio" id="notsure" name="buy" value="Not Sure">
+                    <label for="notsure">Not Sure</label><br/>
+                    <input type="radio" id="unlikely" name="buy" value="Unlikely">
+                    <label for="unlikely">Unlikely</label><br/>
+                    <input type="radio" id="vunlikely" name="buy" value="Very Unlikely">
+                    <label for="vunlikely">Very Unlikely</label><br/>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <b>3.What do you like most our products?</b><br/>
+                    <textarea  id="like"></textarea>
+               </td>
+               <td>
+                    <b>4.What do you most dislike our product?</b><br/>
+                    <textarea  id="dislike"></textarea>
+               </td>
+          </tr>
+          <tr>
+               <td>
+                    <b>5.Do you like to suggest about our food and bevrages to your friends?</b><br>
+                    <input type="radio" id="yes" name="service" value="yes">
+                    <label for="yes">Yes</label><br/>
+                    <input type="radio" id="no" name="service" value="no">
+                    <label for="no">No</label>
+               </td>
+          </tr>
+          <tr>
+               <td colspan="2"><center><button id="submit">Submit</button></center></td>
+          </tr>
+     </table>
+
+</form> 
+
+
+</body>
+</html>

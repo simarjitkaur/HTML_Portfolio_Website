@@ -1,0 +1,24 @@
+img{
+    float:center;
+    height: auto;
+    width: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3{
+      text-align: center;
+  }
+  p{
+      font-family: 'Times New Roman', Times, serif;
+      font-style: italic;
+  }
+  b{
+      color: tomato;
+  }
+  table{
+    margin-left: auto; 
+    margin-right: auto;
+  }

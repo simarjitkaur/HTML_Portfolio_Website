@@ -1,0 +1,16 @@
+td{
+    vertical-align:top;
+}
+th, td {
+    padding: 8px;
+  }
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    background-color:#E6E6E6;
+    table-layout: auto;
+}
+h3{
+    color: tomato;
+}

@@ -1,0 +1,31 @@
+p{
+    font: size 12;;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+    
+}
+img{
+     height: 126px;
+     width: 150px;
+     border:darkgrey;
+     float: left;
+     margin: 2px 20px 0px 0px ;
+}
+h2{
+    color: royalblue;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+#para1{
+    color:brown;
+}
+#para2{
+    color:brown;
+}
+#para3{
+    color: firebrick;
+}
+#para4{
+    color: darkred;
+}
+

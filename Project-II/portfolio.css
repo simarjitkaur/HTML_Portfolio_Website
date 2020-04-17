@@ -1,0 +1,45 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h3{
+      text-align: center;
+  }
+  a:link {
+    color:red;
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:tomato;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+  button{
+      background-color:white;
+      height: 10%;
+      width: 6%;
+  }
+  td{
+    vertical-align:top;
+   }
+  th, td {
+    padding: 8px;
+  }
+
+table{
+    margin-left:auto; 
+    margin-right:auto;
+    background-color:#E6E6E6;
+    table-layout: auto;
+}
