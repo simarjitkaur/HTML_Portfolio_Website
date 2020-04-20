@@ -1,0 +1,64 @@
+#showing{
+  margin: auto;
+  width:405px;
+  /* border: 3px solid #73AD21; */
+  padding: 10px;
+}
+#child{
+  border: black;
+  border-width:2px;
+}
+h2 {
+  font-size: 25px;
+  word-break: break-all;
+  text-align: center;
+  font-style: italic;
+  color:darkred;
+}
+img{
+  border-width: 2px;
+}
+button {
+  background-color:black;
+  color:white;
+  padding:8px;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 12px;
+  border: 1px solid white;
+  border:none;
+  cursor:pointer;
+  height:30px;
+  width:60px;
+  border-radius: 8%;
+}
+.parentdiv{
+  display:flex;
+  position:relative;
+}
+.childdiv{
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+ 	margin-right: auto;
+  bottom:2em;
+  width: 28%;
+  opacity: 0;
+ 
+
+}
+#main{
+  margin: auto;
+  padding: 10px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border:5px solid black;
+  border-radius: 8%;
+}
+#back{
+  font-size: 20px;
+}

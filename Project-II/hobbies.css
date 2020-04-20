@@ -1,0 +1,30 @@
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: justify;
+}
+h2{
+    color:#FFC733;
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+a:link {
+    color:red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:tomato;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:green;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
